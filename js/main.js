@@ -1,6 +1,10 @@
 
 
 $(window).on("load",function(){
+
+	// preloader
+	$(".preloader").fadeOut(2000);
+
 	// home section slide show
 	let slideIndex = $(".slide.active").index();
 	const slideLen = $(".slide").length;
